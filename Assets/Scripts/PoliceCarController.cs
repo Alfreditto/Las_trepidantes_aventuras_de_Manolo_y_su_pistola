@@ -22,14 +22,14 @@ public class PoliceCarController : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.A))
             {
-                if (transform.position.x > -7f)
+                if (transform.position.x > -4f)
                 {
                     transform.Translate(Vector3.left * (Time.deltaTime * speed));
                 }
             }
             else if (Input.GetKey(KeyCode.D))
             {
-                if (transform.position.x < 7f)
+                if (transform.position.x < 4f)
                 {
                     transform.Translate(Vector3.right * (Time.deltaTime * speed));
                 }
