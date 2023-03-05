@@ -41,11 +41,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Scripts/PoliceCarController.cs" />
+     <Compile Include="Assets/Scripts/CameraManager.cs" />
      <Compile Include="Assets/Scripts/CacoCarController.cs" />
      <Compile Include="Assets/Scripts/SpawnManager.cs" />
      <Compile Include="Assets/Scripts/MoveForward.cs" />
      <Compile Include="Assets/Scripts/GameManager.cs" />
+     <Compile Include="Assets/Scripts/PoliceCarController.cs" />
+     <Compile Include="Assets/Scripts/ShootingScript.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/home/alfredo/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.dll</HintPath>
      </Reference>

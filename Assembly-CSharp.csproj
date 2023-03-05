@@ -41,11 +41,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Scripts/PoliceCarController.cs" />
+     <Compile Include="Assets/Scripts/CameraManager.cs" />
      <Compile Include="Assets/Scripts/CacoCarController.cs" />
      <Compile Include="Assets/Scripts/SpawnManager.cs" />
      <Compile Include="Assets/Scripts/MoveForward.cs" />
      <Compile Include="Assets/Scripts/GameManager.cs" />
+     <Compile Include="Assets/Scripts/PoliceCarController.cs" />
+     <Compile Include="Assets/Scripts/ShootingScript.cs" />
      <Folder Include="Assets" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/mergetool.ja.txt" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/images.zh-Hans.txt" />
