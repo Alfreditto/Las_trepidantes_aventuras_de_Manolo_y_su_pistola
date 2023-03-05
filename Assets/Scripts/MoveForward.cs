@@ -25,10 +25,19 @@ public class MoveForward : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && gameObject.CompareTag("Gallina"))
         {
             gameManager.gameOver = true;
+            Destroy(gameObject);
+        }
+        else if (other.gameObject.CompareTag("Caco") && gameObject.CompareTag("Bala"))
+
+        {
+            gameManager.vidasCaco--;
+            Destroy(gameObject);
+        } else if (other.gameObject.CompareTag("Finish"))
+        {
+            Destroy(gameObject);
         }
     }
 }

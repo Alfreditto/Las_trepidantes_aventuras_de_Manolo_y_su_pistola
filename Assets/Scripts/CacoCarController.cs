@@ -11,22 +11,27 @@ public class CacoCarController : MonoBehaviour
     [Range(1, 10)]
     public int speed = 5;
     public float limite  = 4f;
+    public GameManager gameManager;
 
     void Start()
     {
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(direccion * (Time.deltaTime * speed));
-        if (transform.position.x >= limite)
+        if (gameManager.gameOver == false)
         {
-            direccion = Vector3.left;
-        }
-        else if (transform.position.x <= -limite)
-        {
-            direccion = Vector3.right;
+            transform.Translate(direccion * (Time.deltaTime * speed));
+            if (transform.position.x >= limite)
+            {
+                direccion = Vector3.left;
+            }
+            else if (transform.position.x <= -limite)
+            {
+                direccion = Vector3.right;
+            }
         }
     }
 

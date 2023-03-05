@@ -6,26 +6,33 @@ using UnityEngine;
 public class PoliceCarController : MonoBehaviour
 {
     public float speed = 5f;
+
+    public GameManager gameManager;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.A))
+        if (gameManager.gameOver == false)
         {
-            if (transform.position.x > -7f)
+            if (Input.GetKey(KeyCode.A))
             {
-                transform.Translate(Vector3.left * (Time.deltaTime * speed));
+                if (transform.position.x > -7f)
+                {
+                    transform.Translate(Vector3.left * (Time.deltaTime * speed));
+                }
             }
-        } else if (Input.GetKey(KeyCode.D))
-        {
-            if (transform.position.x < 7f)
+            else if (Input.GetKey(KeyCode.D))
             {
-                transform.Translate(Vector3.right * (Time.deltaTime * speed));
+                if (transform.position.x < 7f)
+                {
+                    transform.Translate(Vector3.right * (Time.deltaTime * speed));
+                }
             }
         }
     }
