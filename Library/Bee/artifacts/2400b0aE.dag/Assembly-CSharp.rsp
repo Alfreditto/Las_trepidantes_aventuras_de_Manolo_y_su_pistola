@@ -342,9 +342,12 @@
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CacoCarController.cs"
+"Assets/Scripts/CameraManager.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/MoveForward.cs"
+"Assets/Scripts/MoverEscenario.cs"
 "Assets/Scripts/PoliceCarController.cs"
+"Assets/Scripts/ShootingScript.cs"
 "Assets/Scripts/SpawnManager.cs"
 -langversion:9.0
 
