@@ -41,6 +41,8 @@ public class MoveForward : MonoBehaviour
         if (other.gameObject.CompareTag("Player") && gameObject.CompareTag("Gallina"))
         {
             gameManager.gameOver = true;
+            gameManager.polloSound.Play();
+            gameManager.ganador = "Caco";
             Destroy(gameObject);
             
         }
@@ -48,7 +50,6 @@ public class MoveForward : MonoBehaviour
 
         {
             gameManager.vidasCaco--;
-
             Destroy(gameObject);
             
             

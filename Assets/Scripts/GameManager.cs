@@ -9,12 +9,16 @@ public class GameManager : MonoBehaviour
     public ParticleSystem explosion;
     public bool cacoExplotado = false;
     public AudioSource explosionSound;
+    public AudioSource polloSound;
+    public string ganador;
+
     // Start is called before the first frame update
     void Start()
     {
         gameOver = false;
         vidasCaco = 4;
         cacoExplotado = false;
+        polloSound = GameObject.Find("Player").GetComponent<AudioSource>();
         explosionSound = GameObject.Find("caco_car").GetComponent<AudioSource>();
         explosion = GameObject.Find("Explosion").GetComponent<ParticleSystem>();
     }
@@ -28,6 +32,7 @@ public class GameManager : MonoBehaviour
             explosion.Play();
             cacoExplotado = true;
             gameOver = true;
+            ganador = "Pollo";
         }
     }
 }
