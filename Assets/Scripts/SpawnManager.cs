@@ -32,7 +32,7 @@ public class SpawnManager : MonoBehaviour
             yield return new WaitForSeconds(spawnRate);
             GameObject badItem = pollo;
             Instantiate(badItem, new Vector3(cacoCarPosition.x, 0, cacoCarPosition.z),
-                Quaternion.Euler(0f, cacoCar.transform.eulerAngles.y + 180f, 0f));
+                Quaternion.Euler(0f, 180f, 0f));
         }
     }
 }

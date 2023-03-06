@@ -6,12 +6,14 @@ using UnityEngine;
 public class PoliceCarController : MonoBehaviour
 {
     private float speed = 5f;
+    private Animator animator;
 
     public GameManager gameManager;
 
     // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponent<Animator>();
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
@@ -24,6 +26,7 @@ public class PoliceCarController : MonoBehaviour
             {
                 if (transform.position.x > -4f)
                 {
+                    animator.SetBool("TurningLeft", true);
                     transform.Translate(Vector3.left * (Time.deltaTime * speed));
                 }
             }
@@ -31,9 +34,18 @@ public class PoliceCarController : MonoBehaviour
             {
                 if (transform.position.x < 4f)
                 {
+                    animator.SetBool("TurningRight", true);
                     transform.Translate(Vector3.right * (Time.deltaTime * speed));
                 }
             }
+            if (Input.GetKeyUp(KeyCode.A))
+            {
+                animator.SetBool("TurningLeft", false);
+            } else if (Input.GetKeyUp(KeyCode.D))
+            {
+                animator.SetBool("TurningRight", false);
+            }
+    
         }
     }
 
