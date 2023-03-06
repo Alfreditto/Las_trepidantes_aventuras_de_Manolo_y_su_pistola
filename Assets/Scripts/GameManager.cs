@@ -11,9 +11,10 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        explosion = GameObject.Find("Explosion").GetComponent<ParticleSystem>();
         gameOver = false;
         vidasCaco = 4;
+        cacoExplotado = false;
+        explosion = GameObject.Find("Explosion").GetComponent<ParticleSystem>();
     }
 
     // Update is called once per frame

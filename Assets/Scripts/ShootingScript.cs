@@ -8,8 +8,9 @@ public class ShootingScript : MonoBehaviour
     // Start is called before the first frame update
     public GameObject gun;
     public GameObject bullet;
-    private float cooldown = 1.5f;
-    private float nextFire;
+    public float cooldown = 2f;
+    public float nextFire;
+    public GameManager gamema;
 
     void Start()
     {
@@ -18,8 +19,8 @@ public class ShootingScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Mouse0) && Time.time > nextFire)
-        {
+        if (Input.GetKey(KeyCode.Mouse0) && Time.time >= nextFire && gamema.gameOver == false)
+        {   
             nextFire = Time.time + cooldown;
             Instantiate(bullet,
                 new Vector3(gun.transform.position.x, gun.transform.position.y + 1,

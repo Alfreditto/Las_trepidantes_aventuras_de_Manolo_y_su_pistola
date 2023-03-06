@@ -25,7 +25,7 @@ public class CacoCarController : MonoBehaviour
     {
         if (gameManager.gameOver == false)
         {
-            transform.Translate(direccion * (Time.deltaTime * speed));
+            transform.Translate(direccion * (Time.deltaTime * speed), Space.World);
             if (transform.position.x >= limite)
             {
                 animator.SetBool("TurningRight", false);
