@@ -20,7 +20,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (vidasCaco > 0) return;
-        gameOver = true;
+        if (vidasCaco <= 0 && cacoExplotado == false)
+        {
+            explosion.Play();
+            cacoExplotado = true;
+            gameOver = true;
+        }
     }
 }
