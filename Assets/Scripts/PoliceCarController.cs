@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PoliceCarController : MonoBehaviour
 {
-    public float speed = 5f;
+    private float speed = 5f;
 
     public GameManager gameManager;
 

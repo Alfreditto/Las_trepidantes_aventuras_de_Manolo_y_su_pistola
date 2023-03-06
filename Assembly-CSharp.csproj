@@ -75,6 +75,7 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
      <Compile Include="Assets/Scripts/PoliceCarController.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
+     <Compile Include="Assets/Scripts/BotonesScript.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
      <Compile Include="Assets/Scripts/ShootingScript.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
@@ -83,7 +84,7 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
-     <Compile Include="Assets/Scripts/BotonesScript.cs" />
+     <Compile Include="Assets/Scripts/InterfazMainView.cs" />
      <Folder Include="Assets" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/mergetool.ja.txt" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/images.zh-Hans.txt" />
@@ -351,11 +352,13 @@
      <None Include="Library/PackageCache/com.unity.ide.vscode@1.2.5/ValidationExceptions.json" />
      <Folder Include="Library/PackageCache/com.unity.modules.jsonserialize@1.0.0" />
      <None Include="Library/PackageCache/com.unity.visualscripting@1.8.0/ValidationConfig.json" />
+     <Folder Include="Assets/ElementosInicio" />
      <Folder Include="Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/decorations" />
      <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources/Shaders" />
      <Folder Include="Library/PackageCache/com.unity.modules.director@1.0.0" />
      <Folder Include="Library/PackageCache/com.unity.modules.audio@1.0.0" />
      <Folder Include="Library/PackageCache/com.unity.settings-manager@1.0.3/Content" />
+     <Folder Include="Assets/Musica" />
      <None Include="Library/PackageCache/com.unity.modules.terrain@1.0.0/package.json" />
      <Folder Include="Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/commontypes.ko.txt" />

@@ -9,8 +9,8 @@ public class CacoCarController : MonoBehaviour
     // Start is called before the first frame update
     private Vector3 direccion { get; set; } = Vector3.right;
     [Range(1, 10)]
-    public int speed = 5;
-    public float limite  = 4f;
+    private int speed = 5;
+    private float limite  = 4f;
     public GameManager gameManager;
 
     void Start()

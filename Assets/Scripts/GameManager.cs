@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public bool gameOver = false;
     public int vidasCaco = 4;
     public ParticleSystem explosion;
+    public bool cacoExplotado = false;
     // Start is called before the first frame update
     void Start()
     {

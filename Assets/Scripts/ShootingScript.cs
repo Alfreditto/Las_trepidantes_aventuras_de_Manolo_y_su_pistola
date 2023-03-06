@@ -8,8 +8,8 @@ public class ShootingScript : MonoBehaviour
     // Start is called before the first frame update
     public GameObject gun;
     public GameObject bullet;
-    public float cooldown = 1f;
-    public float nextFire;
+    private float cooldown = 1.5f;
+    private float nextFire;
 
     void Start()
     {

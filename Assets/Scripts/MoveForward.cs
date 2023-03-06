@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class MoveForward : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speed;
 
     public GameManager gameManager;
     
@@ -25,7 +25,7 @@ public class MoveForward : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * (Time.deltaTime * speed));
-        if (gameManager.vidasCaco <= 0 && explosion.isPlaying == false)       
+        if (gameManager.vidasCaco <= 0 && gameManager.cacoExplotado == false)       
         {
             explosion.Play();
         }

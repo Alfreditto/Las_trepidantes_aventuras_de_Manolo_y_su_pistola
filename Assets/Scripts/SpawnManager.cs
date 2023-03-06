@@ -7,8 +7,7 @@ public class SpawnManager : MonoBehaviour
 {
     public GameObject cacoCar;
     public GameObject pollo;
-    public float spawnRate = 3f;
-    public float cooldown = 0f;
+    private float spawnRate = 2f;
     public Vector3 cacoCarPosition;
     public GameManager gameManager;
 
