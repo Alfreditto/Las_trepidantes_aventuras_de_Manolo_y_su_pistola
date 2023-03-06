@@ -98,7 +98,6 @@
      <None Include="Library/PackageCache/com.unity.modules.screencapture@1.0.0/package.json" />
      <None Include="Library/PackageCache/com.unity.modules.cloth@1.0.0/package.json" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
-     <Folder Include="Assets/Blink/Art/Characters/LowPoly/Demo_FREE_LowPolyCharacter" />
      <Folder Include="Library/PackageCache/com.unity.modules.imgui@1.0.0" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/plastic-gui.zh-Hant.txt" />
      <Folder Include="Assets/TextMesh Pro/Sprites" />
@@ -109,7 +108,6 @@
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/differences.es.txt" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/commontypes.zh-Hans.txt" />
      <Folder Include="Library/PackageCache/com.unity.modules.animation@1.0.0" />
-     <Folder Include="Assets/Blink/Art" />
      <None Include="Library/PackageCache/com.unity.ugui@1.0.0/package.json" />
      <Folder Include="Library/PackageCache/com.unity.modules.xr@1.0.0" />
      <Folder Include="Assets/VertexColorFarmAnimals/Shaders" />
@@ -134,21 +132,16 @@
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/guihelp.ja.txt" />
      <None Include="Library/PackageCache/com.unity.modules.imgui@1.0.0/package.json" />
      <Folder Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Graphics" />
-     <Folder Include="Assets/Blink/Art/Characters/LowPoly/Demo_FREE_LowPolyCharacter/DEMO_FREE_LowPolyHumans" />
      <None Include="Library/PackageCache/com.unity.modules.tilemap@1.0.0/package.json" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/xdiff.ja.txt" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/configurehelper.es.txt" />
      <Folder Include="Library/PackageCache/com.unity.modules.assetbundle@1.0.0" />
      <Folder Include="Assets/SimpleFX/Materials" />
-     <Folder Include="Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Meshes_Humans/ArmorMeshes_Humans" />
      <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" />
-     <Folder Include="Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Textures_Humans" />
      <Folder Include="Assets/VertexColorFarmAnimals/Scenes" />
      <None Include="Library/PackageCache/com.unity.timeline@1.6.4/package.json" />
-     <Folder Include="Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans" />
      <Folder Include="Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/configurehelper.en.txt" />
-     <Folder Include="Assets/Blink/Art/Animations/Animations_Starter_Pack/Gathering" />
      <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" />
      <Folder Include="Assets/TextMesh Pro/Resources/Fonts &amp; Materials" />
      <Folder Include="Library/PackageCache/com.unity.visualscripting@1.8.0" />
@@ -157,11 +150,9 @@
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/basecommands.zh-Hant.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/cm-help.es.txt" />
-     <Folder Include="Assets/Blink/Art/Animations" />
      <None Include="Library/PackageCache/com.unity.modules.terrainphysics@1.0.0/package.json" />
      <Folder Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM" />
      <Folder Include="Library/PackageCache/com.unity.performance.profile-analyzer@1.1.1" />
-     <Folder Include="Assets/Blink" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/differences.zh-Hant.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
      <Folder Include="Assets/TextMesh Pro/Resources" />
@@ -171,7 +162,6 @@
      <None Include="Library/PackageCache/com.unity.visualscripting@1.8.0/package.json" />
      <Folder Include="Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Materials/Materials" />
      <None Include="Library/PackageCache/com.unity.editorcoroutines@1.0.0/package.json" />
-     <Folder Include="Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Meshes_Humans" />
      <None Include="Library/PackageCache/com.unity.timeline@1.6.4/ValidationExceptions.json" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/package.json" />
      <Folder Include="Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Materials" />
@@ -189,7 +179,6 @@
      <Folder Include="Library/PackageCache/com.unity.ext.nunit@1.0.6" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/differences.ja.txt" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/configurehelper.ja.txt" />
-     <Folder Include="Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/semantic.en.txt" />
      <None Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/package.json" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/workspaceserver.ko.txt" />
@@ -200,7 +189,6 @@
      <Folder Include="Library/PackageCache/com.unity.modules.terrainphysics@1.0.0" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/plastic-gui.zh-Hans.txt" />
      <None Include="Library/PackageCache/com.unity.modules.imageconversion@1.0.0/package.json" />
-     <Folder Include="Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans" />
      <Folder Include="Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0" />
      <Folder Include="Assets/SimpleFX/_Demo" />
      <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/ValidationExceptions.json" />
@@ -228,7 +216,6 @@
      <Folder Include="Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Models" />
      <Folder Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/basecommands.en.txt" />
-     <Folder Include="Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement" />
      <Folder Include="Library/PackageCache/com.unity.modules.vr@1.0.0" />
      <Folder Include="Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Scenes/SampleScene_Profiles" />
      <Folder Include="Library/PackageCache/com.unity.testtools.codecoverage@1.2.2" />
@@ -283,7 +270,6 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts" />
      <Folder Include="Assets/Paulisia_S/3D Game Kit - Lowpoly city assets/Prefabs/buildings" />
-     <Folder Include="Assets/Blink/Art/Characters" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/FileSystemWatcherLicense.txt" />
      <Folder Include="Library/PackageCache/com.unity.modules.androidjni@1.0.0" />
      <Folder Include="Library/PackageCache/com.unity.performance.profile-analyzer@1.1.1/Tests" />
@@ -296,7 +282,6 @@
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/clientcommon.en.txt" />
      <None Include="Library/PackageCache/com.unity.modules.physics@1.0.0/package.json" />
      <Folder Include="Library/PackageCache/com.unity.collab-proxy@2.0.0" />
-     <Folder Include="Assets/Blink/Art/Animations/Animations_Starter_Pack" />
      <Folder Include="Assets/LowPolyWeapons_LITE/Scenes" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/binmergetool.zh-Hans.txt" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets" />
@@ -360,7 +345,6 @@
      <Folder Include="Library/PackageCache/com.unity.settings-manager@1.0.3/Content" />
      <Folder Include="Assets/Musica" />
      <None Include="Library/PackageCache/com.unity.modules.terrain@1.0.0/package.json" />
-     <Folder Include="Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/commontypes.ko.txt" />
      <Folder Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17" />
      <None Include="Library/PackageCache/com.unity.modules.androidjni@1.0.0/package.json" />
@@ -368,7 +352,6 @@
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/commontypes.ja.txt" />
      <Folder Include="Library/PackageCache/com.unity.modules.video@1.0.0" />
      <Folder Include="Library/PackageCache/com.unity.modules.ai@1.0.0" />
-     <Folder Include="Assets/Blink/Art/Characters/LowPoly" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/localization/configurehelper.ko.txt" />
      <Folder Include="Assets/VertexColorFarmAnimals/Models/Materials" />
      <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/PackageConversionData_Assets.json" />

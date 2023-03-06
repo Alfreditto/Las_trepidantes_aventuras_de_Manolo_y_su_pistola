@@ -8,12 +8,14 @@ public class GameManager : MonoBehaviour
     public int vidasCaco = 4;
     public ParticleSystem explosion;
     public bool cacoExplotado = false;
+    public AudioSource explosionSound;
     // Start is called before the first frame update
     void Start()
     {
         gameOver = false;
         vidasCaco = 4;
         cacoExplotado = false;
+        explosionSound = GameObject.Find("caco_car").GetComponent<AudioSource>();
         explosion = GameObject.Find("Explosion").GetComponent<ParticleSystem>();
     }
 
@@ -22,6 +24,7 @@ public class GameManager : MonoBehaviour
     {
         if (vidasCaco <= 0 && cacoExplotado == false)
         {
+            explosionSound.Play();
             explosion.Play();
             cacoExplotado = true;
             gameOver = true;
