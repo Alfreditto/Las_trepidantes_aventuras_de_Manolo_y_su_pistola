@@ -27,7 +27,7 @@ public class PoliceCarController : MonoBehaviour
                 if (transform.position.x > -4f)
                 {
                     animator.SetBool("TurningLeft", true);
-                    transform.Translate(Vector3.left * (Time.deltaTime * speed));
+                    transform.Translate(Vector3.left * (Time.deltaTime * speed), Space.World);
                 }
             }
             else if (Input.GetKey(KeyCode.D))
@@ -35,7 +35,7 @@ public class PoliceCarController : MonoBehaviour
                 if (transform.position.x < 4f)
                 {
                     animator.SetBool("TurningRight", true);
-                    transform.Translate(Vector3.right * (Time.deltaTime * speed));
+                    transform.Translate(Vector3.right * (Time.deltaTime * speed), Space.World);
                 }
             }
             if (Input.GetKeyUp(KeyCode.A))

@@ -12,9 +12,11 @@ public class CacoCarController : MonoBehaviour
     private int speed = 5;
     private float limite  = 4f;
     public GameManager gameManager;
+    private Animator animator;
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
@@ -26,10 +28,14 @@ public class CacoCarController : MonoBehaviour
             transform.Translate(direccion * (Time.deltaTime * speed));
             if (transform.position.x >= limite)
             {
+                animator.SetBool("TurningRight", false);
+                animator.SetBool("TurningLeft", true);
                 direccion = Vector3.left;
             }
             else if (transform.position.x <= -limite)
-            {
+            { 
+                animator.SetBool("TurningLeft", false);
+                animator.SetBool("TurningRight", true);
                 direccion = Vector3.right;
             }
         }
