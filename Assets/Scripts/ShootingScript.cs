@@ -12,9 +12,11 @@ public class ShootingScript : MonoBehaviour
     public float nextFire;
     public GameManager gamema;
     public Animator animator;
+    public AudioSource audioSource;
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         gamema = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
@@ -25,6 +27,7 @@ public class ShootingScript : MonoBehaviour
             {
                 nextFire = Time.time + cooldown;
                 animator.SetBool("Shooting", true);
+                audioSource.Play();
                 Instantiate(bullet,
                     new Vector3(gun.transform.position.x, gun.transform.position.y + 1,
                         gun.transform.position.z),
