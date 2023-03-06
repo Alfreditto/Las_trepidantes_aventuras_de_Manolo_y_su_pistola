@@ -38,6 +38,6 @@ public class GameManager : MonoBehaviour
 
     public void Reiniciar()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
 }
