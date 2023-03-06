@@ -35,4 +35,9 @@ public class GameManager : MonoBehaviour
             ganador = "Pollo";
         }
     }
+
+    public void Reiniciar()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+    }
 }

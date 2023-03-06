@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InterfazMainView : MonoBehaviour
 {
@@ -10,13 +12,18 @@ public class InterfazMainView : MonoBehaviour
     public GameObject pistola;
     public float nextFire;
     public TextMeshProUGUI txtEstadoPistola;
+    public TextMeshProUGUI txtGameOver;
+    public Button btnReiniciar;
 
     // Start is called before the first frame update
     void Start()
     {
         pistola = GameObject.Find("Gun");
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
-        txtEstadoPistola = GameObject.Find("Estado").GetComponent<TextMeshProUGUI>();
+        txtGameOver.gameObject.SetActive(false);
+        btnReiniciar.gameObject.SetActive(false);
+        btnReiniciar.onClick.AddListener(() => { gameManager.Reiniciar(); });
+
     }
 
     // Update is called once per frame
@@ -57,6 +64,15 @@ public class InterfazMainView : MonoBehaviour
         {
             txtEstadoPistola.text = "Recargando";
             txtEstadoPistola.color = Color.yellow;
+        }
+
+        if (gameManager.gameOver)
+        {
+            txtGameOver.GameObject().SetActive(true);
+            btnReiniciar.GameObject().SetActive(true);
+            txtEstado.GameObject().SetActive(false);
+            txtEstadoPistola.GameObject().SetActive(false);
+            txtGameOver.text = "Ganador: " + gameManager.ganador;
         }
     }
 }
