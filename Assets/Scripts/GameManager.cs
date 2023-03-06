@@ -26,13 +26,13 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (vidasCaco <= 0 && cacoExplotado == false)
+        if (vidasCaco <= 0 && cacoExplotado == false && gameOver == false)
         {
             explosionSound.Play();
             explosion.Play();
             cacoExplotado = true;
             gameOver = true;
-            ganador = "Pollo";
+            ganador = "Policia";
         }
     }
 

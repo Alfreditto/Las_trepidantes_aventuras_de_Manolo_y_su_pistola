@@ -13,7 +13,7 @@ public class BotonesScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        botonIniciar.onClick.AddListener(() => { SceneManager.LoadScene("MainScene"); });
+        botonIniciar.onClick.AddListener(() => { SceneManager.LoadScene(1); });
         btnManolo.onClick.AddListener(() => { Debug.Log("soy manolo"); });
     }
 
