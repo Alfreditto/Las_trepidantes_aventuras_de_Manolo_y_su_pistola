@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public bool cacoExplotado = false;
     public AudioSource explosionSound;
     public AudioSource polloSound;
+    public AudioSource persecucuionSound;
     public string ganador;
 
     // Start is called before the first frame update
@@ -21,6 +22,7 @@ public class GameManager : MonoBehaviour
         polloSound = GameObject.Find("Player").GetComponent<AudioSource>();
         explosionSound = GameObject.Find("caco_car").GetComponent<AudioSource>();
         explosion = GameObject.Find("Explosion").GetComponent<ParticleSystem>();
+        persecucuionSound = GameObject.Find("Main Camera").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -33,6 +35,10 @@ public class GameManager : MonoBehaviour
             cacoExplotado = true;
             gameOver = true;
             ganador = "Policia";
+        }
+        if (gameOver)
+        {
+            persecucuionSound.Stop();
         }
     }
 

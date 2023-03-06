@@ -14,7 +14,7 @@ public class BotonesScript : MonoBehaviour
     void Start()
     {
         botonIniciar.onClick.AddListener(() => { SceneManager.LoadScene(1); });
-        btnManolo.onClick.AddListener(() => { Debug.Log("soy manolo"); });
+        btnManolo.onClick.AddListener(() => { SceneManager.LoadScene(2); });
     }
 
     // Update is called once per frame
