@@ -78,7 +78,7 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
      <Compile Include="Assets/Scripts/PoliceCarController.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
-     <Compile Include="Assets/Scripts/BotonesScript.cs" />
+     <Compile Include="Assets/Scripts/BotonesMenuScript.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
      <Compile Include="Assets/Scripts/ShootingScript.cs" />
      <Compile Include="Assets/Scripts/Salto.cs" />
