@@ -70,7 +70,6 @@ public class InterfazMainView : MonoBehaviour
         {
             txtGameOver.GameObject().SetActive(true);
             btnReiniciar.GameObject().SetActive(true);
-            txtEstado.GameObject().SetActive(false);
             txtEstadoPistola.GameObject().SetActive(false);
             txtGameOver.text = "Ganador: " + gameManager.ganador;
         }

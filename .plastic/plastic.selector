@@ -1,0 +1,4 @@
+repository "Las trepidantes aventuras de Manolo y su pistola@Electronic_Turtles@cloud"
+  path "/"
+    br "/main"
+    co "/main"
